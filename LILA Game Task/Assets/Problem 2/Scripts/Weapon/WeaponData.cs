@@ -5,7 +5,7 @@ public class WeaponData : ScriptableObject
 {
     public string weaponName;
 
-    public WeaponCategory category;
+  //  public WeaponCategory category;
 
     [Header("Ammo Settings")]
     public int magazineSize;

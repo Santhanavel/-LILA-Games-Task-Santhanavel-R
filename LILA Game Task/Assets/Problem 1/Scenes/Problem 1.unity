@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 375993679}
   - component: {fileID: 375993678}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: Remote Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smoothSpeed: 10
-  snapOnFirstReceive: 1
+  snapOnFirstReceive: 0
 --- !u!136 &375993679
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ GameObject:
   - component: {fileID: 1447763970}
   - component: {fileID: 1447763975}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: My Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
