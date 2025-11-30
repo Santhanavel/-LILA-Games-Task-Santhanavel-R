@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd56f5fc8967474d9c0067faae52689, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  weaponName: Pistol
+  magazineCapacity: 15
+  maxReserveAmmo: 70
+  GunIcon: {fileID: 21300000, guid: 5f4d41e9328319f47a066db013441b79, type: 3}
+  fireRate: 1
+  damage: 10
+  reloadTime: 6
+  fireSFX: {fileID: 0}

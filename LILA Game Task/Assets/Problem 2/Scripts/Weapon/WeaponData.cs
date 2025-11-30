@@ -5,18 +5,13 @@ public class WeaponData : ScriptableObject
 {
     public string weaponName;
 
-  //  public WeaponCategory category;
-
     [Header("Ammo Settings")]
-    public int magazineSize;
-    public int maxReserveAmmo;
+    public int magazineCapacity = 30;    // how many bullets a magazine can hold
+    public int maxReserveAmmo = 90;      // maximum reserve the player can carry for this weapon
+    public Sprite GunIcon;
 
     [Header("Fire Settings")]
-    public float fireRate;
-    public float damage;
-    public float reloadTime;
-
-    [Header("Effects")]
-    public GameObject muzzleFlashPrefab;
-    public AudioClip fireSFX;
+    public float fireRate = 10f;
+    public float damage = 10f;
+    public float reloadTime = 1.5f;
 }
